@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FSharpConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "./Data/BOS_Clients_20240916.csv ./Data/BOS_Claims_20240916.csv"
+    }
+  }
+}
