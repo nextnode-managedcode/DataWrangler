@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Data\BOS_Claims.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\BOS_Clients.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Compile Include="DataWrangle.fs" />
     <Compile Include="Main.fs" />
   </ItemGroup>
@@ -19,8 +25,6 @@
     <PackageReference Include="Steema.TeeChart.NET" Version="4.2024.7.29" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
+  <ItemGroup />
 
 </Project>
